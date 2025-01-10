@@ -4,34 +4,48 @@ function App() {
   return (
     <>
       {/* Header */}
-      <header>
-        <div>
-          <h1>
+      <header className="header">
+        <div className="header__logo">
+          <h1 className="header__logo__title">
             <a href="#">Jungminji</a>
           </h1>
         </div>
         <nav>
-          <ul>
+          <ul className="header__menu">
             <li>
-              <a href="#home">Home</a>
+              <a className="header__menu__item active" href="#home">
+                Home
+              </a>
             </li>
             <li>
-              <a href="#about-me">About Me</a>
+              <a className="header__menu__item" href="#about-me">
+                About Me
+              </a>
             </li>
             <li>
-              <a href="#skills">Skills</a>
+              <a className="header__menu__item" href="#skills">
+                Skills
+              </a>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <a className="header__menu__item" href="#projects">
+                Projects
+              </a>
             </li>
             <li>
-              <a href="#career">Career</a>
+              <a className="header__menu__item" href="#career">
+                Career
+              </a>
             </li>
             <li>
-              <a href="#education">Education</a>
+              <a className="header__menu__item" href="#education">
+                Education
+              </a>
             </li>
             <li>
-              <a href="#contact-me">Contact Me</a>
+              <a className="header__menu__item" href="#contact-me">
+                Contact Me
+              </a>
             </li>
           </ul>
         </nav>
