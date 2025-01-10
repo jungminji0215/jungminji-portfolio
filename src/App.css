@@ -1,1 +1,33 @@
 @import "./reset.css";
+
+#home {
+  background-color: red;
+}
+
+#about-me {
+  background-color: blanchedalmond;
+}
+
+#skills {
+  background-color: gray;
+}
+
+#career {
+  background-color: green;
+}
+
+#projects {
+  background-color: orange;
+}
+
+#education {
+  background-color: skyblue;
+}
+
+#contact-me {
+  background-color: chartreuse;
+}
+
+footer {
+  background-color: blueviolet;
+}
