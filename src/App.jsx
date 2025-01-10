@@ -54,7 +54,7 @@ function App() {
       {/* Main */}
       <main>
         {/* Home */}
-        <section id="home">
+        <section id="home" className="section">
           <p className="home__title">
             안녕하세요! <br /> 프론트엔드 개발자{" "}
             <strong className="home__title--strong">정민지</strong>입니다.
@@ -68,8 +68,8 @@ function App() {
         </section>
 
         {/* About Me */}
-        <section id="about-me">
-          <h2>About Me</h2>
+        <section id="about-me" className="section">
+          <h2 className="title">About Me</h2>
           <div>
             {/* 소개 */}
             <section>
@@ -113,8 +113,9 @@ function App() {
         </section>
 
         {/* Skills */}
-        <section id="skills">
-          <h2>Skills</h2>
+        <section id="skills" className="section">
+          <h2 className="title">Skills</h2>
+          <p className="description">이런 기술을 사용해봤습니다.</p>
           <div>
             <ul>
               <li>
@@ -135,8 +136,9 @@ function App() {
         </section>
 
         {/* Projects */}
-        <section id="projects">
-          <h2>Projects</h2>
+        <section id="projects" className="section">
+          <h2 className="title">Projects</h2>
+          <p className="description">프로젝트 입니다.</p>
           <ul>
             <li>포트폴리오 사이트</li>
             <li>기술 면접 사이트</li>
@@ -144,8 +146,9 @@ function App() {
         </section>
 
         {/* Career */}
-        <section id="career">
-          <h2>Career</h2>
+        <section id="career" className="section">
+          <h2 className="title">Career</h2>
+          <p className="description">이런 일을 해왔습니다.</p>
           <ul className="workeduc-box">
             <li className="workeduc-content">
               {/* TODO 회사 로고 */}
@@ -191,8 +194,9 @@ function App() {
         </section>
 
         {/* Education */}
-        <section id="education">
-          <h2>Education</h2>
+        <section id="education" className="section">
+          <h2 className="title">Education</h2>
+          <p className="description">이러한 교육을 졸업, 수료 하였습니다.</p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
           nobis eaque unde. Temporibus id dolorum atque fugiat eaque, vel
           itaque. Suscipit blanditiis consectetur nulla voluptatum, nemo
@@ -200,8 +204,9 @@ function App() {
         </section>
 
         {/* Contact Me */}
-        <section id="contact-me">
-          <h2>Contact Me</h2>
+        <section id="contact-me" className="section">
+          <h2 className="title">Contact Me</h2>
+          <p className="description">이메일로 연락 가능합니다.</p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
           nobis eaque unde. Temporibus id dolorum atque fugiat eaque, vel
           itaque. Suscipit blanditiis consectetur nulla voluptatum, nemo

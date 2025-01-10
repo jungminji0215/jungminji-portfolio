@@ -25,11 +25,6 @@
   font-style: normal;
 }
 
-body h1,
-body h2 {
-  font-family: "SBAggroB", sans-serif;
-}
-
 a {
   text-decoration: none;
   color: var(--color-text);
