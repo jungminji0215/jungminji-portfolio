@@ -55,13 +55,16 @@ function App() {
       <main>
         {/* Home */}
         <section id="home">
-          <p>안녕하세요, 프론트엔드 개발자 정민지입니다.</p>
-          <a href="#about-me">
-            <i
-              className="bx bx-chevrons-down bx-flip-horizontal bx-tada"
-              style={{ color: "#5db86b" }}
-            ></i>
-          </a>
+          <p className="home__title">
+            안녕하세요! <br /> 프론트엔드 개발자{" "}
+            <strong className="home__title--strong">정민지</strong>입니다.
+          </p>
+          <div className="home__scroll">
+            {/* <span>스크롤</span> */}
+            <a href="#about-me">
+              <i className="bx bx-chevrons-down bx-flip-horizontal bx-tada home__scroll__icon"></i>
+            </a>
+          </div>
         </section>
 
         {/* About Me */}

@@ -33,13 +33,30 @@
   border-radius: 4px;
 }
 
-/* TODO 삭제 */
-header {
-  background-color: greenyellow;
+/* Home */
+#home {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  padding: 5rem 1rem;
+  padding-top: 7rem;
+  text-align: center;
 }
 
-#home {
-  background-color: red;
+.home__title {
+  font-size: 3rem;
+}
+
+.home__title--strong {
+  color: var(--color-accent);
+}
+
+.home__scroll__icon {
+  font-size: 60px;
+}
+
+/* TODO 삭제 */
+header {
+  background-color: gray;
 }
 
 #about-me {
