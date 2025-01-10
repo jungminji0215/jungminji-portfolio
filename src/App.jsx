@@ -117,20 +117,20 @@ function App() {
           <h2 className="title">Skills</h2>
           <p className="description">이런 기술을 사용해봤습니다.</p>
           <div>
-            <ul>
-              <li>
-                <i className="fa-brands fa-html5"></i>
-                <p>Frontend</p>
-                <p>HTML, CSS, Javascript, Typescript, React, Next.js</p>
+            <ul className="skills">
+              <li className="skill">
+                {/* <i className="fa-brands fa-html5 skill__icon"></i> */}
+                <h3 className="skill__title">Frontend</h3>
+                <p>
+                  <i className="fa-brands fa-html5 skill__icon"></i>, CSS,
+                  Javascript, Typescript, React, Next.js
+                </p>
               </li>
-              <li>
-                <i className="fa-solid fa-server"></i>
-                <p>Backend</p>
+              <li className="skill">
+                {/* <i className="fa-solid fa-server skill__icon"></i> */}
+                <h3 className="skill__title">Backend</h3>
                 <p>SpringBoot, Node.js</p>
               </li>
-              <li></li>
-              <li></li>
-              <li></li>
             </ul>
           </div>
         </section>
