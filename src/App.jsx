@@ -142,48 +142,48 @@ function App() {
         <section id="skills" className="section">
           <h2 className="title">Skills</h2>
           <p className="description">이런 기술을 사용해봤습니다.</p>
-          <div>
-            <ul className="skills">
-              <li className="skills__items">
-                <h3 className="skill__item__title">Frontend</h3>
-                <div className="skill__item__icons">
-                  <img
-                    src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"
-                    className="skill__item__icon"
-                  />
-                  <img
-                    src="https://img.shields.io/badge/css-1572B6?style=flat-square&logo=css&logoColor=white"
-                    className="skill__item__icon"
-                  />
-                  <img
-                    src="https://img.shields.io/badge/javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=white"
-                    className="skill__item__icon"
-                  />
-                  <img
-                    src="https://img.shields.io/badge/typescript-3178C6?style=flat-square&logo=typescript&logoColor=white"
-                    className="skill__item__icon"
-                  />
-                  <img
-                    src="https://img.shields.io/badge/react-61DAFB?style=flat-square&logo=react&logoColor=white"
-                    className="skill__item__icon"
-                  />
-                  <img
-                    src="https://img.shields.io/badge/next.js-000000?style=flat-square&logo=next.js&logoColor=white"
-                    className="skill__item__icon"
-                  />
-                </div>
-              </li>
-              <li className="skills__items">
-                <h3 className="skill__item__title">Backend</h3>
-                <div className="skill_item__icons">
-                  <img
-                    src="https://img.shields.io/badge/Spring-3DDC84?style=flat-square&logo=Spring&logoColor=white"
-                    className="skill__item__icon"
-                  />
-                </div>
-              </li>
-            </ul>
-          </div>
+          {/* <div> */}
+          <ul className="skills">
+            <li className="skills__items">
+              <h3 className="skill__item__title">Frontend</h3>
+              <div className="skill__item__icons">
+                <img
+                  src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"
+                  className="skill__item__icon"
+                />
+                <img
+                  src="https://img.shields.io/badge/css-1572B6?style=flat-square&logo=css&logoColor=white"
+                  className="skill__item__icon"
+                />
+                <img
+                  src="https://img.shields.io/badge/javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=white"
+                  className="skill__item__icon"
+                />
+                <img
+                  src="https://img.shields.io/badge/typescript-3178C6?style=flat-square&logo=typescript&logoColor=white"
+                  className="skill__item__icon"
+                />
+                <img
+                  src="https://img.shields.io/badge/react-61DAFB?style=flat-square&logo=react&logoColor=white"
+                  className="skill__item__icon"
+                />
+                <img
+                  src="https://img.shields.io/badge/next.js-000000?style=flat-square&logo=next.js&logoColor=white"
+                  className="skill__item__icon"
+                />
+              </div>
+            </li>
+            <li className="skills__items">
+              <h3 className="skill__item__title">Backend</h3>
+              <div className="skill_item__icons">
+                <img
+                  src="https://img.shields.io/badge/Spring-3DDC84?style=flat-square&logo=Spring&logoColor=white"
+                  className="skill__item__icon"
+                />
+              </div>
+            </li>
+          </ul>
+          {/* </div> */}
         </section>
 
         {/* Projects */}
@@ -200,45 +200,56 @@ function App() {
         <section id="career" className="section">
           <h2 className="title">Career</h2>
           <p className="description">이런 일을 해왔습니다.</p>
-          <ul className="workeduc-box">
-            <li className="workeduc-content">
+
+          <ul className="career">
+            <li className="career__item">
               {/* TODO 회사 로고 */}
               {/* <img src="" alt="bomapp logo" /> */}
-              <span className="year">
-                <i className="bx bxs-calendar"></i>2020 - 2021
-              </span>
-              <h3>웹 개발자 회사</h3>
+              <div className="career__item__year">
+                <i className="bx bxs-calendar career__item__year__icon"></i>2020
+                - 2021
+              </div>
+              <h3 className="career__company">보맵</h3>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
-                iste voluptas voluptate sed. Delectus cupiditate, tempora, fugit
-                iste deserunt amet perspiciatis obcaecati quam distinctio optio
-                ex aperiam accusantium magni qui?
               </p>
             </li>
 
-            <li className="workeduc-content">
-              <span className="year">
-                <i className="bx bxs-calendar"></i>2020 - 2021
-              </span>
-              <h3>웹 개발자 회사</h3>
+            <li className="career__item">
+              {/* TODO 회사 로고 */}
+              {/* <img src="" alt="bomapp logo" /> */}
+              <div className="career__item__year">
+                <i className="bx bxs-calendar career__item__year__icon"></i>2020
+                - 2021
+              </div>
+              <h3 className="career__company">보맵</h3>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
-                iste voluptas voluptate sed. Delectus cupiditate, tempora, fugit
-                iste deserunt amet perspiciatis obcaecati quam distinctio optio
-                ex aperiam accusantium magni qui?
               </p>
             </li>
 
-            <li className="workeduc-content">
-              <span className="year">
-                <i className="bx bxs-calendar"></i>2020 - 2021
-              </span>
-              <h3>웹 개발자 회사</h3>
+            <li className="career__item">
+              {/* TODO 회사 로고 */}
+              {/* <img src="" alt="bomapp logo" /> */}
+              <div className="career__item__year">
+                <i className="bx bxs-calendar  career__item__year__icon"></i>
+                2020 - 2021
+              </div>
+              <h3 className="career__company">슈퍼키친</h3>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
-                iste voluptas voluptate sed. Delectus cupiditate, tempora, fugit
-                iste deserunt amet perspiciatis obcaecati quam distinctio optio
-                ex aperiam accusantium magni qui?
+              </p>
+            </li>
+            <li className="career__item">
+              {/* TODO 회사 로고 */}
+              {/* <img src="" alt="bomapp logo" /> */}
+              <div className="career__item__year">
+                <i className="bx bxs-calendar career__item__year__icon"></i>2020
+                - 2021
+              </div>
+              <h3 className="career__company">슈퍼키친</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
               </p>
             </li>
           </ul>

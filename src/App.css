@@ -89,16 +89,16 @@
 .about-me {
   margin: 1rem 0;
   display: flex;
-  /* gap: 1rem; */
+  align-items: center;
+  justify-content: center;
 }
 
 .about-me__description {
-  /* background-color: aqua; */
   padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  width: 45%;
 }
 
 .about-me__description__message {
@@ -107,20 +107,19 @@
 }
 
 .about-me__info_items {
-  /* background-color: yellow; */
   padding: 2rem 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   row-gap: 1rem;
-  width: 50%;
+  width: 40%;
 }
 
 .about-me__item {
   /* background-color: blue; */
   padding: 0.5rem;
   display: flex;
-  flex: 0 0 calc(33.33% - 1rem);
+  flex: 0 0 calc(33.33% - 0.5rem);
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -149,6 +148,8 @@
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+
+  /* TODO 모든 섹션에서 사용하는데.. 공통? */
   margin: 2.5rem 0;
 }
 
@@ -184,6 +185,44 @@
   background-color: var(--color-primary);
 }
 
+/* Career */
+.career {
+  border-left: 2px solid var(--color-accent);
+  margin: 2.5rem 0;
+  /* background-color: red; */
+}
+
+.career .career__item {
+  position: relative;
+  padding-left: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.career .career__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -0.65rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  background: var(--color-accent);
+  border-radius: 50%;
+}
+
+.career__item__year {
+  color: var(--color-accent);
+  margin-bottom: 0.5rem;
+}
+
+.career__item__year__icon {
+  margin-right: 0.4rem;
+}
+
+.career__company {
+  font-size: large;
+  margin-bottom: 1rem;
+}
+
 /* Footer */
 footer {
   padding: 4rem;
@@ -196,10 +235,6 @@ footer {
 /* TODO 삭제 */
 header {
   background-color: gray;
-}
-
-#career {
-  background-color: green;
 }
 
 #education {
