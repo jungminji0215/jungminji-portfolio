@@ -144,18 +144,43 @@ function App() {
           <p className="description">이런 기술을 사용해봤습니다.</p>
           <div>
             <ul className="skills">
-              <li className="skill">
-                {/* <i className="fa-brands fa-html5 skill__icon"></i> */}
-                <h3 className="skill__title">Frontend</h3>
-                <p>
-                  <i className="fa-brands fa-html5 skill__icon"></i>, CSS,
-                  Javascript, Typescript, React, Next.js
-                </p>
+              <li className="skills__items">
+                <h3 className="skill__item__title">Frontend</h3>
+                <div className="skill__item__icons">
+                  <img
+                    src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"
+                    className="skill__item__icon"
+                  />
+                  <img
+                    src="https://img.shields.io/badge/css-1572B6?style=flat-square&logo=css&logoColor=white"
+                    className="skill__item__icon"
+                  />
+                  <img
+                    src="https://img.shields.io/badge/javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=white"
+                    className="skill__item__icon"
+                  />
+                  <img
+                    src="https://img.shields.io/badge/typescript-3178C6?style=flat-square&logo=typescript&logoColor=white"
+                    className="skill__item__icon"
+                  />
+                  <img
+                    src="https://img.shields.io/badge/react-61DAFB?style=flat-square&logo=react&logoColor=white"
+                    className="skill__item__icon"
+                  />
+                  <img
+                    src="https://img.shields.io/badge/next.js-000000?style=flat-square&logo=next.js&logoColor=white"
+                    className="skill__item__icon"
+                  />
+                </div>
               </li>
-              <li className="skill">
-                {/* <i className="fa-solid fa-server skill__icon"></i> */}
-                <h3 className="skill__title">Backend</h3>
-                <p>SpringBoot, Node.js</p>
+              <li className="skills__items">
+                <h3 className="skill__item__title">Backend</h3>
+                <div className="skill_item__icons">
+                  <img
+                    src="https://img.shields.io/badge/Spring-3DDC84?style=flat-square&logo=Spring&logoColor=white"
+                    className="skill__item__icon"
+                  />
+                </div>
               </li>
             </ul>
           </div>

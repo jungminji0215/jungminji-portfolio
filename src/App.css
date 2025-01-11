@@ -82,6 +82,10 @@
 }
 
 /* About Me */
+#about-me {
+  background-color: var(--color-primary);
+}
+
 .about-me {
   margin: 1rem 0;
   display: flex;
@@ -89,8 +93,8 @@
 }
 
 .about-me__description {
+  /* background-color: aqua; */
   padding: 1rem;
-  background-color: aqua;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,8 +107,8 @@
 }
 
 .about-me__info_items {
+  /* background-color: yellow; */
   padding: 2rem 1rem;
-  background-color: yellow;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -113,7 +117,7 @@
 }
 
 .about-me__item {
-  background-color: blue;
+  /* background-color: blue; */
   padding: 0.5rem;
   display: flex;
   flex: 0 0 calc(33.33% - 1rem);
@@ -144,27 +148,40 @@
 .skills {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2.5rem;
   margin: 2.5rem 0;
 }
 
-.skill {
-  background-color: var(--color-primary-variant);
+.skills__items {
+  /* background-color: var(--color-primary-variant); */
   padding: 2rem 1rem;
   color: var(--color-text);
   border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.skill__icon {
-  font-size: 2rem;
+.skill__item__icons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.skill__item__icon {
+  /* width: 100px;
+  height: 30px; */
   margin: 1rem 0;
   color: var(--color-accent);
+  border-radius: 0.2rem;
 }
 
-.skill__title {
+.skill__item__title {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
+}
+
+/* Projects */
+#projects {
+  background-color: var(--color-primary);
 }
 
 /* Footer */
@@ -181,20 +198,8 @@ header {
   background-color: gray;
 }
 
-#about-me {
-  background-color: blanchedalmond;
-}
-
-#skills {
-  background-color: gray;
-}
-
 #career {
   background-color: green;
-}
-
-#projects {
-  background-color: orange;
 }
 
 #education {
