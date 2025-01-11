@@ -52,7 +52,7 @@ function App() {
       </header>
 
       {/* Main */}
-      <main>
+      <main className="max-container">
         {/* Home */}
         <section id="home" className="section">
           <p className="home__title">
