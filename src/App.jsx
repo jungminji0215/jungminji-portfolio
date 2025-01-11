@@ -52,7 +52,7 @@ function App() {
       </header>
 
       {/* Main */}
-      <main className="max-container">
+      <main>
         {/* Home */}
         <section id="home" className="section">
           <p className="home__title">
@@ -70,43 +70,69 @@ function App() {
         {/* About Me */}
         <section id="about-me" className="section">
           <h2 className="title">About Me</h2>
-          <div>
+          <div className="about-me max-container">
             {/* 소개 */}
-            <section>
-              <p>
-                안녕하세요 저는 이러이러한 개발자입니다. 이러이러한 개발자가
-                되고싶어요
+            <section className="about-me__description">
+              <p className="about-me__description__message">
+                성장과 도전의 가치를 알고 <br />
+                배우고 부딪히며 꾸준히 발전하고있는 <br />
+                정민지입니다.
               </p>
             </section>
 
-            <section>
-              <a href="https://github.com/jungminji0215" target="_blank">
-                <i className="fa-brands fa-github"></i>
-              </a>
-
-              <a
-                href="https://jungminji0215.tistory.com/"
-                target="_blank"
-                className="test"
-              >
-                <i
-                  className="fa-solid fa-blog"
-                  style={{ color: " #dd7631" }}
-                ></i>
-              </a>
-
-              <div>
-                <i
-                  className="fa-regular fa-envelope"
-                  style={{ color: "#d06c71" }}
-                ></i>
+            <section className="about-me__info_items">
+              <div className="about-me__item">
+                <div className="about-me__item__title">
+                  <i className="fa-solid fa-user about-me__item__title__icon"></i>
+                  <p>이름</p>
+                </div>
+                <p className="about-me__item__content">정민지</p>
               </div>
 
-              <div>
-                <i
-                  className="fa-regular fa-file"
-                  style={{ color: "#989a98" }}
-                ></i>
+              <div className="about-me__item">
+                <div className="about-me__item__title">
+                  <i className="fa-regular fa-envelope about-me__item__title__icon"></i>
+                  <p>이메일</p>
+                </div>
+                <p className="about-me__item__content">
+                  wjdalswl0215@gmail.com
+                </p>
+              </div>
+
+              <div className="about-me__item">
+                <div className="about-me__item__title">
+                  <i className="fa-regular fa-file about-me__item__title__icon"></i>
+                  <p>이력서</p>
+                </div>
+                <a className="about-me__item__content"> 링크 </a>
+              </div>
+
+              <div className="about-me__item">
+                <div className="about-me__item__title">
+                  <i className="fa-brands fa-github about-me__item__title__icon"></i>
+                  <p>깃허브</p>
+                </div>
+                <a
+                  href="https://github.com/jungminji0215"
+                  target="_blank"
+                  className="about-me__item__content"
+                >
+                  https://github.com/jungminji0215
+                </a>
+              </div>
+
+              <div className="about-me__item">
+                <div className="about-me__item__title">
+                  <i className="fa-solid fa-blog about-me__item__title__icon"></i>
+                  <p>블로그</p>
+                </div>
+                <a
+                  href="https://jungminji0215.tistory.com/"
+                  target="_blank"
+                  className="about-me__item__content"
+                >
+                  https://jungminji0215.tistory.com/
+                </a>
               </div>
             </section>
           </div>
@@ -214,11 +240,11 @@ function App() {
         </section>
 
         {/* Top Scroll */}
-        <aside>
+        {/* <aside>
           <a href="#" title="위로 가기">
             <i className="fa-solid fa-arrow-up"></i>
           </a>
-        </aside>
+        </aside> */}
       </main>
 
       {/* Footer */}

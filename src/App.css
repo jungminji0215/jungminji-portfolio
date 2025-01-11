@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .title {
@@ -21,7 +21,7 @@
 
 .max-container {
   max-width: var(--size-max-width);
-  margin: auto;
+  /* margin: auto; */
 }
 
 /* Header */
@@ -33,6 +33,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  z-index: 1;
 }
 
 .header__logo__title {
@@ -60,11 +61,12 @@
 
 /* Home */
 #home {
-  background-color: var(--color-primary);
+  /* background-color: var(--color-primary); */
   color: var(--color-text);
   padding: 5rem 1rem;
   padding-top: 7rem;
   text-align: center;
+  height: 100vh;
 }
 
 .home__title {
@@ -80,6 +82,63 @@
 }
 
 /* About Me */
+.about-me {
+  margin: 1rem 0;
+  display: flex;
+  /* gap: 1rem; */
+}
+
+.about-me__description {
+  padding: 1rem;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.about-me__description__message {
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+
+.about-me__info_items {
+  padding: 2rem 1rem;
+  background-color: yellow;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 1rem;
+  width: 50%;
+}
+
+.about-me__item {
+  background-color: blue;
+  padding: 0.5rem;
+  display: flex;
+  flex: 0 0 calc(33.33% - 1rem);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me__item__title {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  /* font-size: 1rem; */
+  margin-bottom: 0.5rem;
+}
+
+.about-me__item__title__icon {
+  font-size: 2rem;
+}
+
+.about-me__item__content {
+  font-size: 0.8rem;
+}
 
 /* Skills */
 .skills {
@@ -106,6 +165,15 @@
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* TODO 삭제 */
